@@ -60,10 +60,10 @@ Easy, right? If you're still a little confused, I urge you to view the samples.
 
 
 ####What does each sample do?
-index: Default translation of the entire page.
-force-ja: Force entire page to be translated into Japanese.
-force-ja-jumbotron: Force only the Jumbotron the be translated into Japanese via a CSS selector. Nothing else will be translated.
-force-he-rtl: Force entire page to be translated into Hebrew, also activating Right-to-Left (BiDi) support. 
+* __index__: Default translation of the entire page.
+* __force-ja__: Force entire page to be translated into Japanese.
+* __force-ja-jumbotron__: Force only the Jumbotron the be translated into Japanese via a CSS selector. Nothing else will be translated.
+* __force-he-rtl__: Force entire page to be translated into Hebrew, also activating Right-to-Left (BiDi) support. 
 
 ####Final Note
 I pulled the translations from Google Translate for the samples, so please don't mention them unless absolutely necessary. You should really get someone who knows the language to write a language pack for you. :)

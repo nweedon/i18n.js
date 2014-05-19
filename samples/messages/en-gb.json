@@ -1,0 +1,16 @@
+{
+	"title" : "Page Title",
+	"headers" : { "jumbotron" : {
+									"header" : "Jumbotron Header",
+									"subheader" : "Jumbotron Subheader"
+								},
+				"sections" : ["Section 1", "Section 2", "Section 3"]
+			},
+	"content" : {
+		"buttons" : ["Learn More"],
+		"sections" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			]
+	}
+}

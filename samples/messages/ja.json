@@ -1,0 +1,16 @@
+{
+	"title" : "ページタイトル",
+	"headers" : { "jumbotron" : {
+									"header" : "ジャンボトロンヘッダー",
+									"subheader" : "ジャンボトロンサブヘッダ"
+								},
+				"sections" : ["第1節", "第2節", "第3節"]
+			},
+	"content" : {
+		"buttons" : ["詳細はこちら"],
+		"sections" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			]
+	}
+}

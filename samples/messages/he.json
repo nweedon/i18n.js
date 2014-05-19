@@ -1,0 +1,16 @@
+{
+	"title" : "כותרת הדף",
+	"headers" : { "jumbotron" : {
+									"header" : "jumbotron כותרת",
+									"subheader" : "jumbotron כותרת משנה"
+								},
+				"sections" : ["סעיף 1", "סעיף 2", "סעיף 3"]
+			},
+	"content" : {
+		"buttons" : ["למידע נוסף"],
+		"sections" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			]
+	}
+}

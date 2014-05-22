@@ -5,12 +5,41 @@ i18n.js is a JavaScript component written to aid in the internationalisation (i1
 ####Bower Install
 Bower install to come!
 
+####Using the jQuery-less file
+Simple add i18n.js via a script tag in your web page.
+```
+<script src="i18n.js"></script>
+```
+
+By default, i18n.js will detect the locale of the users' browser and attempt to use that locale in translation.
+Once the page is ready, you can translate it as easily as this:
+```
+window.onload = function() {
+	window.i18n.translate();
+};
+```
+
+This will translate the entire HTML document. If you want to translate only a part of your page, you can translate it easily by providing a CSS selector:
+```
+window.i18n.translate(".jumbotron > h1");
+```
+
+You can also force the page into a particular locale, if you wish:
+```
+window.i18n.translate(".jumbotron > h1", 'ja');
+```
+
+For languages that require Right-to-Left (BiDi) support, provide a second parameter (this has to be true):
+```
+window.i18n.translate(".jumbotron > h1", 'he', true);
+```
+
 ####Using the jQuery Plugin
 Simply add i18n-jQuery.js via a script tag in your web page, after jQuery.
 ```
 <script src="i18n-jQuery.js"></script>
 ```
-By default, i18n.js will detect the locale of the users' browser and attempt to use that locale in translation.
+By default, i18n-jQuery.js will detect the locale of the users' browser and attempt to use that locale in translation.
 Once the page is ready, you can translate it as easily as this:
 ```
 $(window).ready(function() {
